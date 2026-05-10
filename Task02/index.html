@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <button class="icon-btn"><i class="ri-menu-line"></i></button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon" class="logo">
+            <button class="icon-btn"><i class="ri-sun-line"></i></button>
+        </header>
+
+        <section class="toolbar">
+            <div class="search-box">
+                <i class="ri-search-line"></i>
+                <input type="text" placeholder="Search for a Pokémon...">
+            </div>
+            <div class="actions">
+                <div class="filter-dropdown">
+                    Filter by types (1) <i class="ri-arrow-down-s-line"></i>
+                </div>
+                <button class="icon-btn small"><i class="ri-filter-3-line"></i></button>
+            </div>
+        </section>
+
+        <section class="grid">
+            <div class="card border-grass">
+                <div class="card-top">
+                    <span>#0908</span>
+                    <i class="ri-heart-line"></i>
+                </div>
+                <div class="card-image bg-grass">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png" alt="Meowscarada">
+                </div>
+                <h3>Meowscarada</h3>
+                <div class="card-bottom">
+                    <span class="badge badge-grass"><i class="ri-leaf-line"></i> GRASS</span>
+                    <button class="next-btn"><i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+
+            <div class="card border-dark">
+                <div class="card-top">
+                    <span>#0624</span>
+                    <i class="ri-settings-4-line"></i>
+                </div>
+                <div class="card-image bg-dark">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/624.png" alt="Pawniard">
+                </div>
+                <h3>Pawniard</h3>
+                <div class="card-bottom">
+                    <span class="badge badge-dark"><i class="ri-contrast-2-line"></i> DARK / STEEL</span>
+                    <button class="next-btn"><i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+
+            <div class="card border-fire">
+                <div class="card-top">
+                    <span>#0229</span>
+                    <i class="ri-heart-line"></i>
+                </div>
+                <div class="card-image bg-fire">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png" alt="Houndoom">
+                </div>
+                <h3>Houndoom</h3>
+                <div class="card-bottom">
+                    <span class="badge badge-fire"><i class="ri-fire-line"></i> DARK / FIRE</span>
+                    <button class="next-btn"><i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+
+            <div class="card border-water">
+                <div class="card-top">
+                    <span>#0686</span>
+                    <i class="ri-heart-line"></i>
+                </div>
+                <div class="card-image bg-water">
+                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png" alt="Inkay">
+                </div>
+                <h3>Inkay</h3>
+                <div class="card-bottom">
+                    <span class="badge badge-water"><i class="ri-drop-line"></i> DARK / PSYCHIC</span>
+                    <button class="next-btn"><i class="ri-arrow-right-line"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-bar">
+            <div class="info-item">
+                <div class="circle circle-blue"><i class="ri-compass-3-fill"></i></div>
+                <div>
+                    <h4>Explore</h4>
+                    <p>Discover all your favorite Pokémon</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="circle circle-green"><i class="ri-leaf-fill"></i></div>
+                <div>
+                    <h4>Filter</h4>
+                    <p>Find Pokémon by types and abilities</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="circle circle-yellow"><i class="ri-star-fill"></i></div>
+                <div>
+                    <h4>Collection</h4>
+                    <p>Save and manage your collection</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <div class="circle circle-purple"><i class="ri-bar-chart-box-fill"></i></div>
+                <div>
+                    <h4>Stats</h4>
+                    <p>View stats and learn about Pokémon</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <i class="ri-copyright-line"></i> 2024 Pokémon. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
